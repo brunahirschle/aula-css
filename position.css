@@ -1,0 +1,9 @@
+header {
+    position: fixed;
+    z-index: 1;
+}
+
+img {
+    height: 900px;
+    z-index: 2;
+}
