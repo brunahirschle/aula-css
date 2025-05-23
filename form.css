@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.nome::before {
+    content: "\1F33C";
+}
+
+.senha::before {
+    content: "\1F33C";
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+input, button {
+    border-radius: 4px;
+}
+
+
+form {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px gray;
+}
+
+@media (max-width:500px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width:501px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+}
