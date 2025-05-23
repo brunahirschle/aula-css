@@ -1,0 +1,68 @@
+:root {
+    --padding: 20px;
+    --margin: 20px;
+    --gap: 20px;
+    --min-font: 12px;
+    --font: 16px;
+    --max-font:20px:
+}
+
+@media (max-width:500px) {
+    * {
+        font-size: var(--min-font);
+        padding: var(--padding);
+        margin: var(--margin);
+    }
+    header {
+        background-color: lightblue;
+    }
+    main {
+        background-color: lightcoral;
+    }
+    section ul {
+        gap: var(--gap);
+    }
+    footer {
+        background-color: lightgreen;
+    }
+} 
+
+@media (min-width:501px) and (max-width:1000px) {
+    * {
+        font-size: var(--font);
+        padding: var(--padding);
+        margin: var(--margin);
+    }
+    header {
+        background-color: rgb(98, 186, 216);
+    }
+    main {
+        background-color: rgb(236, 62, 62);
+    }
+    section ul {
+        gap: var(--gap);
+    }
+    footer {
+        background-color: rgb(73, 235, 73);
+    }
+}
+
+@media (min-width:1001px) {
+    * {
+        font-size: var(--max-font);
+        padding: var(--padding);
+        margin: var(--margin);
+    }
+    header {
+        background-color: rgb(0, 173, 231);
+    }
+    main {
+        background-color: rgb(228, 0, 0);
+    }
+    section ul {
+        gap: var(--gap);
+    }
+    footer {
+        background-color: rgb(3, 236, 3);
+    }
+}
